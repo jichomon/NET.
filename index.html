@@ -24,7 +24,6 @@
 	<div class="navbar" id="navbar">
 			<div class="button"><a href="#materiales">Materiales</a></div>
 			<div class="button"><a href="#instalacion">Instalación</a></div>
-			<div class="button"><a href="#montaje">Montaje</a></div>
 			<div class="button"><a href="#configuracion">Configuracion</a></div>
 			<div class="button"><a href="#nosotros">Nosotros</a></div>
 	</div>
@@ -59,9 +58,9 @@
 		</svg>
 	</div>
 		<br>
-		<div id="menu">
-		<button class="siguiente" style="vertical-align:middle"><a href="">Introducción</a></button>
-		</div>
+			<!-- <div id="menu">
+		<button class="siguiente" style="vertical-align:middle"><a id="#materiales">Introducción</a></button>
+		</div>-->
 	</div>
 	<div id="info"></div>	
 	</div>
@@ -82,24 +81,81 @@
           </center>
 
           <center>
-          	<p>Se que podria estar usando un Lorem ipsum pero meh<br>Patata</p>
+          	<p>Aqui hay un listado de los materiales que<br>necesitamos</p>
           </center>
           	<div id=Tabla>
           		<table>
           		  <tr>
-          		    <td>RJ-45</td>
-          		    <td>Destornillador</td>
-          		    <td>RACK</td>
+          		    <td><b>Concepto</b></td>
+          		    <td><b>UDS</b></td>
+          		    <td><b>PVP Unidad</b></td>
+          		    <td><b>Subtotal</b></td>
           		  </tr>
           		  <tr>
-          		  	<td>RJ-45 2</td>
-          		    <td>Destornillador 2</td>
-          		    <td>RACK 2</td>
+          		  	<td>Cable UTP CAT-5e</td>
+          		    <td>10 metros</td>
+          		    <td>1,63€</td>
+          		    <td>1,63€</td>
           		  </tr>
           		  <tr>
-          		  	<td>RJ-45 3</td>
-          		    <td>Destornillador 3</td>
-          		    <td>RACK 3</td>
+          		  	<td>Certificador de red</td>
+          		    <td>1</td>
+          		    <td>12,52€</td>
+          		    <td>12,52€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td>Grimpadora</td>
+          		    <td>1</td>
+          		    <td>12,99€</td>
+          		    <td>12,99€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td>Roseta (Legrand)</td>
+          		    <td>5</td>
+          		    <td>9,65€</td>
+          		    <td>48,25€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td>RACK</td>
+          		    <td>1</td>
+          		    <td>64,81€</td>
+          		    <td>64,81€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td>Switch de red</td>
+          		    <td>1</td>
+          		    <td>44,22€</td>
+          		    <td>44,22€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td>Embellecedor</td>
+          		    <td>10</td>
+          		    <td>0,46€</td>
+          		    <td>4,60€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td>Canaletas (mm)</td>
+          		    <td>10</td>
+          		    <td>12,00€</td>
+          		    <td>120,00€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td>Cuter</td>
+          		    <td>1</td>
+          		    <td>0,75€</td>
+          		    <td>0,75€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td>Patch Panel (24 puertos)</td>
+          		    <td>1</td>
+          		    <td>33,40€</td>
+          		    <td>33,40€</td>
+          		  </tr>
+          		  <tr>
+          		  	<td></td>
+          		    <td></td>
+          		    <td></td>
+          		    <td><b>343,17€</b></td>
           		  </tr>
           		</table>
 			</div>
@@ -124,12 +180,8 @@
   	          <center>
   	          	<img id="resize" src="imgs/1.jpg"><img id="resize" src="imgs/2.jpg"><img id="resize" src="imgs/3.jpg"><img id="resize"  src="imgs/4.jpg"><br>
   	          	<img id="resize"  src="imgs/5.jpg"><img id="resize"  src="imgs/6.jpg"><img id="resize"  src="imgs/7.jpg"><img id="resize"  src="imgs/8.jpg"><br>
-  	          	<img id="resize"  src="imgs/9.jpg"><img id="resize"  src="imgs/10.jpg"><img id="resize"  src="imgs/11.jpg"><img id="resize"  src="imgs/12.jpg"><br>	
-  	          	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  	          	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  	          	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,,<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  	          	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,,<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  	          	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+  	          	<img id="resize"  src="imgs/9.jpg"><img id="resize"  src="imgs/10.jpg"><img id="resize"  src="imgs/11.jpg"><img id="resize"  src="imgs/12.jpg"><br>	<br><br>
+  	          	<p>Vale, para empezar, ponemos unas canaletas donde irán las rosetas, pelamos el cable utp 5e con unos alicates y lo juntamos con las rosetas RJ-45.<br>Tras hacer esto conectaremos el otro lado del cable a los paneles del Rack y nada más conectarlos con el certificador de red veremos si va bien o no,<br>si está todo correcto comprobaremos si el botón del switch se enciende. Si se enciende y está todo en orden ya se habría acabado el trabajo de instalación y montaje.
   	          </center>
   				</div>
   				<br><br><br><br><br><br><br><br>	
@@ -139,30 +191,8 @@
   	    </div>
   	  </section>
 
-  	    		<section id="montaje">
-  	    <div>
-  	      <div class="row">
-  	        <div class="col-lg-10 mx-auto">
-  	        	<center>
-  	        		<img id="iconos2" src="imgs/montaje.png">
-  	        	</center>
-  	          <center>
-  	          	<h2>Montaje</h2>
-  	          </center>
 
-  	          <center>
-  	          	<img id="resize" src="imgs/1.jpg"><img id="resize" src="imgs/2.jpg"><img id="resize" src="imgs/3.jpg"><img id="resize"  src="imgs/4.jpg"><br>
-  	          	<img id="resize"  src="imgs/5.jpg"><img id="resize"  src="imgs/6.jpg"><img id="resize"  src="imgs/7.jpg"><img id="resize"  src="imgs/8.jpg"><br>
-  	          	<img id="resize"  src="imgs/9.jpg"><img id="resize"  src="imgs/10.jpg"><img id="resize"  src="imgs/11.jpg"><img id="resize"  src="imgs/12.jpg"><br>	
-  	          	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  	          	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  	          	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,,<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  	          	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,,<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  	          	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-  	          </center>
-  				</div>
   				<br><br><br><br><br><br><br><br>	
-  				<hr>
   	        </div>
   	      </div>
   	    </div>
